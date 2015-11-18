@@ -19,52 +19,29 @@ License URI: http://www.gnu.org/licenses/gpl.txt
 img.alignleft {
 	padding: 0px;
 	border: 0px solid #A1E8F7;
-
-	margin-right: 10px;
-	margin-bottom: 10px;
+	background-color: transparent;
 }
 img.aligncenter {
-	margin: 10px auto 10px auto;
-	display: block;
 	padding: 0px;
 	border: 0px solid #A1E8F7;
-
+	background-color: transparent;
 }
 img.alignright {
 	padding: 0px;
 	border: 0px solid #A1E8F7;
-
-	margin-left: 10px;
-	margin-bottom: 10px;
+	background-color: transparent;
 }
 
 #header h1 a {
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: lighter;
-	font-size: 3em;
-	/* text-transform: uppercase; */
-	letter-spacing: -2px;
-	color: #1E1E1E;
+	text-transform: none;
 }
 #header .description {
-	position: absolute;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1.2em;
-	font-weight: lighter;
-	color: #494949;
-	/* text-transform: uppercase; */
-	bottom: 60px;
-	margin-left: 3px;
+	text-transform: none;
 }
 
 #sidebar li {
-	list-style: none;
 	margin: 0 0 5px 0;
 }
 #sidebar ul ul li {
 	padding: 3px 3px 3px 11px;
-	list-style: none;
-	margin-bottom: 0px;
-	font-size: 0.9em;
-	font-family: Arial, Helvetica, sans-serif;
 }
