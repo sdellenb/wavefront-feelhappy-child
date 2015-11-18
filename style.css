@@ -1,0 +1,70 @@
+/*
+Theme Name: WaveFront Feelhappy Child Theme
+Theme URI: http://www.feelhappy.ch/
+Description: WordPress Child Theme, based on the WaveFront WordPress Theme by Morten Rand-Hendriksen
+Version: 0.2.1
+Author: Simon Dellenbach
+Author URI: http://www.feelhappy.ch/
+Template: wavefront
+Template URI: http://mor10.com/introducing-wavefront-a-new-free-wordpress-theme/
+
+License: GNU General Public License version 3
+License URI: http://www.gnu.org/licenses/gpl.txt
+*/
+
+/**
+ * Overrides of the parent theme's styles.
+ */
+
+img.alignleft {
+	padding: 0px;
+	border: 0px solid #A1E8F7;
+
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+img.aligncenter {
+	margin: 10px auto 10px auto;
+	display: block;
+	padding: 0px;
+	border: 0px solid #A1E8F7;
+
+}
+img.alignright {
+	padding: 0px;
+	border: 0px solid #A1E8F7;
+
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+#header h1 a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: lighter;
+	font-size: 3em;
+	/* text-transform: uppercase; */
+	letter-spacing: -2px;
+	color: #1E1E1E;
+}
+#header .description {
+	position: absolute;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	font-weight: lighter;
+	color: #494949;
+	/* text-transform: uppercase; */
+	bottom: 60px;
+	margin-left: 3px;
+}
+
+#sidebar li {
+	list-style: none;
+	margin: 0 0 5px 0;
+}
+#sidebar ul ul li {
+	padding: 3px 3px 3px 11px;
+	list-style: none;
+	margin-bottom: 0px;
+	font-size: 0.9em;
+	font-family: Arial, Helvetica, sans-serif;
+}
