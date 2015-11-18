@@ -17,31 +17,31 @@ License URI: http://www.gnu.org/licenses/gpl.txt
  */
 
 img.alignleft {
-	padding: 0px;
-	border: 0px solid #A1E8F7;
-	background-color: transparent;
+	padding: 0px !important;
+	border: 0px solid #A1E8F7 !important;
+	background-color: transparent !important;
 }
 img.aligncenter {
-	padding: 0px;
-	border: 0px solid #A1E8F7;
-	background-color: transparent;
+	padding: 0px !important;
+	border: 0px solid #A1E8F7 !important;
+	background-color: transparent !important;
 }
 img.alignright {
-	padding: 0px;
-	border: 0px solid #A1E8F7;
-	background-color: transparent;
+	padding: 0px !important;
+	border: 0px solid #A1E8F7 !important;
+	background-color: transparent !important;
 }
 
 #header h1 a {
-	text-transform: none;
+	text-transform: none !important;
 }
 #header .description {
-	text-transform: none;
+	text-transform: none !important;
 }
 
 #sidebar li {
-	margin: 0 0 5px 0;
+	margin: 0 0 5px 0 !important;
 }
 #sidebar ul ul li {
-	padding: 3px 3px 3px 11px;
+	padding: 3px 3px 3px 11px !important;
 }
